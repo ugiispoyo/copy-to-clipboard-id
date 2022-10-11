@@ -113,4 +113,4 @@ Add in file index.d.ts or global.d.ts
 declare module 'copy-to-clipboard-id';
 ```
 ### Browser compatibility
-![Browser compatibility](https://github.com/ugiispoyo/copy-to-clipboard-id/blob/master/example/support-browser.png)
+![Browser compatibility](https://drive.google.com/file/d/12JkQgDvbiMJZByuzrEbJXsSRBfIvS033/view)
