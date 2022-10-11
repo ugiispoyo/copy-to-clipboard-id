@@ -65,7 +65,7 @@ export default function App() {
 
 ### API
 No | Value | Description
-- | - | -
+--- | --- | ---
 1 | text | The text to be copied
 2 | id | the id of the html tag element that will be fetched for copying but if you already use text this will not work
 3 | onCopy | callback function
