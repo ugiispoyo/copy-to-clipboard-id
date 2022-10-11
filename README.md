@@ -63,6 +63,42 @@ export default function App() {
 }
 ```
 
+##### VueJS
+```
+<script setup lang="ts">
+import copyClipboard from "copy-to-clipboard-id";
+
+function cb(text: string) {
+  console.log(text);
+}
+</script>
+
+<template>
+  <button @click="() => copyClipboard({ text: 'Copy data' })">
+    Click Copy
+  </button>
+  <br />
+  <input type="text" id="text" value="Copy from value input" />
+  <button @click="() => copyClipboard({ id: 'text' })">Click Copy Input</button>
+  <br />
+  <p id="html">copy from html tag</p>
+  <button @click="() => copyClipboard({ id: 'html' })">
+    Click Copy Text Html Tag
+  </button>
+  <button
+    @click="
+      () =>
+        copyClipboard({
+          id: 'html',
+          onCopy: cb,
+        })
+    "
+  >
+    Click Copy Text Html Tag With Callback
+  </button>
+</template>
+```
+
 ### API
 No | Value | Description
 --- | --- | ---
