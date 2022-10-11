@@ -4,7 +4,7 @@ interface ArgsOpt {
     onCopy?: (cb?: string) => void;
 }
 
-async function copy(options?: ArgsOpt): Promise<void> {
+function copy(options?: ArgsOpt): void {
     let textCopy: string = '';
     if (options?.text) {
         textCopy = options?.text as string;
@@ -27,7 +27,7 @@ async function copy(options?: ArgsOpt): Promise<void> {
         options?.onCopy(textCopy);
     }
 
-   await window.navigator.clipboard.writeText(textCopy);
+    window.navigator.clipboard.writeText(textCopy);
 }
 
 export default copy;

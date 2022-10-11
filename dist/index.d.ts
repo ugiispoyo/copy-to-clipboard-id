@@ -3,6 +3,6 @@ interface ArgsOpt {
     id?: string;
     onCopy?: (cb?: string) => void;
 }
-declare function copy(options?: ArgsOpt): Promise<void>;
+declare function copy(options?: ArgsOpt): void;
 
 export { copy as default };
