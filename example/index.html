@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+<body>
+    <div id="el-div">copy from element div</div>
+    <button onclick="copyEl()">Copy</button><br/><br/>
+    <input type="text" id="input" value="copy from input value" /><br/>
+    <button onclick="copyInput()">Copy</button><br/><br/>
+    <textarea id="txtarea">copy from textarea</textarea><br/>
+    <button onclick="copyTxt()">Copy</button><br/><br/>
+
+    <br/><br/>
+    <button onclick="copyText()">Copy Text</button>
+    <script src="./../dist/index.js"></script>
+    <script>
+        function log(e) {
+            console.log("berhasil "+ e)
+        }
+        function copyEl() {
+            copy({id: "el-div", onCopy: log})
+        }
+        function copyInput() {
+            copy({id: "input", onCopy: log})
+        }
+        function copyTxt() {
+            copy({id: "txtarea", onCopy: log})
+        }
+        function copyText() {
+            copy({text: "Copy Text", onCopy: log})
+        }
+    </script>
+</body>
+</html>
