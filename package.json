@@ -2,9 +2,9 @@
   "name": "copy-to-clipboard-id",
   "version": "0.0.5",
   "description": "Simple copy function to clipboard",
-  "main": "dist/index.js",
+  "main": "dist/copy-to-clipboard-id.min.js",
   "scripts": {
-    "build": "rm -rf dist && rollup -c"
+    "build": "rm -rf dist && rollup -c && uglifyjs dist/index.js --output dist/copy-to-clipboard-id.min.js && rm dist/index.js"
   },
   "author": "Ugi Ispoyo Widodo",
   "license": "ISC",
@@ -16,7 +16,8 @@
     "@rollup/plugin-typescript": "^9.0.1",
     "@types/node": "^18.8.4",
     "rollup-plugin-dts": "^4.2.3",
-    "tslib": "^2.4.0"
+    "tslib": "^2.4.0",
+    "uglify-js": "^3.17.3"
   },
   "keywords": [
     "copy to clipboard",

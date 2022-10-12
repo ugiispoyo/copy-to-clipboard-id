@@ -13,6 +13,10 @@ npm i copy-to-clipboard-id
 ```bash
 yarn add copy-to-clipboard-id
 ```
+### With CDN
+```bash
+<script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-id@0.0.6/copy-to-clipboard-id.min.js"><script>
+```
 
 ###### VanilaJS
 

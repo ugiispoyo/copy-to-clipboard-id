@@ -5,7 +5,7 @@ interface ArgsOpt {
 }
 
 function copy(options?: ArgsOpt): void {
-    let textCopy: string = '';
+    let textCopy: string = "";
     if (options?.text) {
         textCopy = options?.text as string;
     } else if (options?.id) {
@@ -27,7 +27,17 @@ function copy(options?: ArgsOpt): void {
         options?.onCopy(textCopy);
     }
 
-    window.navigator.clipboard.writeText(textCopy);
+    /* With execCommand */
+    const tempEl = document.createElement("input") as HTMLInputElement;
+    tempEl.setAttribute("type", "text");
+    tempEl.setAttribute("value", textCopy);
+    document.body.appendChild(tempEl);
+    tempEl.select();
+    document.execCommand("copy");
+    tempEl.remove();
+
+    /* With navigator */
+    // window.navigator.clipboard.writeText(textCopy);
 }
 
 export default copy;
