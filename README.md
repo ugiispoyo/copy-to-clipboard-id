@@ -15,7 +15,7 @@ yarn add copy-to-clipboard-id
 ```
 ### With CDN
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-id@0.0.7"></script>
+<script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-id@0.0.8"></script>
 ```
 
 ###### VanilaJS
@@ -121,4 +121,6 @@ declare module 'copy-to-clipboard-id';
 
 ### Live Demo React
 [Live Demo With Editor](https://stackblitz.com/edit/react-ts-yeygse?file=App.tsx) 
+<br/>
+
 [Live Demo](https://react-ts-yeygse.stackblitz.io) 
