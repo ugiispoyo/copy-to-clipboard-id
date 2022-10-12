@@ -1,6 +1,6 @@
 {
   "name": "copy-to-clipboard-id",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple copy function to clipboard",
   "main": "dist/copy-to-clipboard-id.min.js",
   "scripts": {
