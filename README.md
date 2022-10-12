@@ -21,7 +21,7 @@ yarn add copy-to-clipboard-id
 ###### VanilaJS
 
 ```javascript
-var copyClipboard = required("copy-to-clipboard-id");
+var copyClipboard = require("copy-to-clipboard-id");
 
 function copy() {
     copyClipboard({ text: "Copy data" });
