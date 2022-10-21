@@ -19,6 +19,10 @@
     "tslib": "^2.4.0",
     "uglify-js": "^3.17.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugiispoyo/copy-to-clipboard-id.git"
+  },
   "keywords": [
     "copy to clipboard",
     "copy to clipboard id",
