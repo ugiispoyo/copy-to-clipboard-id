@@ -2,6 +2,7 @@
 [![npm stat](https://img.shields.io/npm/dm/copy-to-clipboard-id.svg?style=flat-square)](https://npm-stat.com/charts.html?package=copy-to-clipboard-id)
 [![npm version](https://img.shields.io/npm/v/copy-to-clipboard-id.svg?style=flat-square)](https://www.npmjs.com/package/copy-to-clipboard-id)
 [![](https://data.jsdelivr.com/v1/package/npm/copy-to-clipboard-id/badge)](https://www.jsdelivr.com/package/npm/copy-to-clipboard-id)
+[![install size](https://packagephobia.com/badge?p=copy-to-clipboard-id@0.0.9)](https://packagephobia.com/result?p=copy-to-clipboard-id@0.0.9)
 
 # Copy To Clipboard ID
 
