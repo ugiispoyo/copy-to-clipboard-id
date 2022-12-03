@@ -4,5 +4,4 @@ interface ArgsOpt {
     onCopy?: (cb?: string) => void;
 }
 declare function copy(options?: ArgsOpt): void;
-
-export { copy as default };
+export default copy;

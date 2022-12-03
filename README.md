@@ -1,3 +1,9 @@
+
+[![npm stat](https://img.shields.io/npm/dm/copy-to-clipboard-id.svg?style=flat-square)](https://npm-stat.com/charts.html?package=copy-to-clipboard-id)
+[![npm version](https://img.shields.io/npm/v/copy-to-clipboard-id.svg?style=flat-square)](https://www.npmjs.com/package/copy-to-clipboard-id)
+[![](https://data.jsdelivr.com/v1/package/npm/copy-to-clipboard-id/badge)](https://www.jsdelivr.com/package/npm/copy-to-clipboard-id)
+[![install size](https://packagephobia.com/badge?p=copy-to-clipboard-id)](https://packagephobia.com/result?p=copy-to-clipboard-id)
+
 # Copy To Clipboard ID
 
 Simple copy function to clipboard
@@ -15,7 +21,7 @@ yarn add copy-to-clipboard-id
 ```
 ### With CDN
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-id@0.0.8"></script>
+<script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard-id@0.0.9"></script>
 ```
 
 ###### VanilaJS
