@@ -1,4 +1,4 @@
-interface ArgsOpt {
+type ArgsOpt = {
     text?: string;
     id?: string;
     onCopy?: (cb?: string) => void;
